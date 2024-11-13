@@ -27,7 +27,7 @@ def main():
         )
 
         if path:
-            for station in path:
+            for station in reversed(path):
                 print(station.get_id(), end=" -> ")
             print("End")
 

@@ -1,3 +1,4 @@
 
 #para ignorar los archivos pycache
+behavioral/__pycache__/
 behavioral/*.py[cod]
